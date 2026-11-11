@@ -5,7 +5,7 @@
 // Change this one value when the Instamojo product listing is live.
 // Replace it with the product page URL so every Buy now / store link updates.
 // ============================================================================
-const STORE_URL = 'https://hqmediadesigns.myinstamojo.com';
+const STORE_URL = 'https://hqmediadesigns.myinstamojo.com/product/malayalam-shop-essentials-14-posts-14-storie/';
 
 document.querySelectorAll('[data-store-link]').forEach((el) => {
   el.setAttribute('href', STORE_URL);
