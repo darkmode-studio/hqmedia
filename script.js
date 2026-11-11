@@ -7,8 +7,20 @@
 // ============================================================================
 const STORE_URL = 'https://hqmediadesigns.myinstamojo.com/product/malayalam-shop-essentials-14-posts-14-storie/';
 
+// ============================================================================
+// PREMIUM PACK URL
+// Change this one value when the Kerala Shop Premium Instamojo listing is live.
+// Replace PREMIUM_STORE_URL with the product page URL so every premium Buy now
+// link updates.
+// ============================================================================
+const PREMIUM_STORE_URL = 'https://hqmediadesigns.myinstamojo.com/product/kerala-shop-premium-40-malayalam-social-temp/';
+
 document.querySelectorAll('[data-store-link]').forEach((el) => {
   el.setAttribute('href', STORE_URL);
+});
+
+document.querySelectorAll('[data-premium-store-link]').forEach((el) => {
+  el.setAttribute('href', PREMIUM_STORE_URL);
 });
 
 // Simple lightbox for the preview gallery. Fails quietly if <dialog> is missing.
